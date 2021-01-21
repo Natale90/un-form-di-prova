@@ -1,0 +1,95 @@
+
+/* ISTRUZIONI GENERICHE PAGINA */
+*{
+  margin: 0px;
+  padding:0px;
+  box-sizing: border-box;
+}
+
+/* ISTRUZIONI HEADER */
+header{
+  border-bottom:3px solid lightgreen;
+  padding: 30px 0px;
+  width: 80%;
+  margin: 20px auto;
+  font-family: "Kanit", sans-serif;
+}
+
+header h1{
+  font-weight: normal;
+}
+
+/* ISTRUZIONI MAIN */
+main{
+  width: 80%;
+  margin: auto;
+  content:"";
+  display: table;
+  clear: both;
+}
+
+/* ISTRUZIONI LEFTSIDE SECTION */
+
+section{
+  height: 600px;
+  float: left;
+}
+
+.brand_description{
+  width: 50%;
+}
+
+.brand_description > img{
+  max-width: 100%;
+}
+
+.brand_description > p{
+  font-family: "Kanit", sans-serif;
+}
+
+/* ISTRUZIONI RIGHTSIDE SECTION */
+
+.brand_form{
+  width: 50%;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.form_title{
+  font-size: 25px;
+  font-family: "Kanit", sans-serif;
+  font-weight: normal;
+  padding: 20px;
+  text-align: center;
+}
+
+
+/* istruzioni form */
+form{
+  margin-top: 100px;
+}
+
+input{
+  width: 300px;
+  margin: 20px auto;
+  padding: 20px;
+  display: block;
+}
+
+input[type="submit"]{
+  width: 200px;
+}
+
+
+/* socials */
+.socials{
+  text-align: center;
+  margin-top: 30px;
+}
+
+.socials a{
+  text-decoration: none;
+  font-family: "Kanit", sans-serif;
+  padding: 5px;
+  background-color: lightgreen;
+  border: 0px;
+}
